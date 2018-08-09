@@ -103,6 +103,7 @@ var pp = document.createElement('a'); pp.setAttribute('href', 'data:text/plain;c
               mode: 'javascript',
               theme: 'dracula',
               lineNumbers: true,
+              readOnly: true, //for read only
             }}
             onChange={(editor, data, value) => {
             }}
@@ -117,6 +118,7 @@ var pp = document.createElement('a'); pp.setAttribute('href', 'data:text/plain;c
               mode: 'CSS',
               theme: 'dracula',
               lineNumbers: true,
+              readOnly: true,
             }}
             onChange={(editor, data, value) => {
             }}
@@ -132,6 +134,7 @@ var pp = document.createElement('a'); pp.setAttribute('href', 'data:text/plain;c
               mode: 'text/html',
               theme: 'dracula',
               lineNumbers: true,
+              readOnly: true,
             }}
             onChange={(editor, data, value) => {
             }}
